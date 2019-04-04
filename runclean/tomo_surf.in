@@ -1,0 +1,14 @@
+#dvxd,dvzd,minthk,weightg,lambda,weightb,surfjoint,ifsyn,noiselevel,dampratio,vpvsinv,weightratio
+0.4 0.4 2.0 80.0 0.7 1.0 1 0 0.01 0.02 1 4.5
+#nsrc
+300 
+#nperiods
+31
+10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+0
+0
+0
+3.0 8.3
+0.7 5.5
+#thresholdsurf
+0.1

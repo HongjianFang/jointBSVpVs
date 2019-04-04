@@ -1,0 +1,217 @@
+GFORTRAN module version '0' created from CalSurfGnew.f90 on Fri Dec 15 14:58:43 2017
+MD5:2e6f5b4b5d4ffaf8ca02b3fc82b427dd -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () () () ()
+() () () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'addtree' 'traveltime' 'addtree' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 3 0 (4 5)
+() 0 () () () 0 0)
+6 'asgr' 'globalp' 'asgr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+7 'backpointer' 'traveltime' 'backpointer' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ((
+8 'px' (INTEGER 2 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS ()) (9 'pz' (INTEGER 2 0 0
+INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN)
+UNKNOWN-ACCESS ())) PUBLIC (() ()) () 0 0)
+10 'btg' 'traveltime' 'btg' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (DERIVED 7 0 0 DERIVED ()) 0 0 ()
+(1 DEFERRED () ()) 0 () () () 0 0)
+11 'checkstat' 'globalp' 'checkstat' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 ()
+() () 0 0)
+12 'dnx' 'globalp' 'dnx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+13 'dnxd' 'globalp' 'dnxd' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+14 'dnxr' 'globalp' 'dnxr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+15 'dnz' 'globalp' 'dnz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+16 'dnzd' 'globalp' 'dnzd' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+17 'dnzr' 'globalp' 'dnzr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+18 'downtree' 'traveltime' 'downtree' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () ()
+0 () () () 0 0)
+19 'drnx' 'globalp' 'drnx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+20 'drnz' 'globalp' 'drnz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+21 'dvx' 'globalp' 'dvx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+22 'dvxd' 'globalp' 'dvxd' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+23 'dvz' 'globalp' 'dvz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+24 'dvzd' 'globalp' 'dvzd' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+25 'earth' 'globalp' 'earth' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+26 'fom' 'globalp' 'fom' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+27 'fouds1' 'traveltime' 'fouds1' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 28 0 (
+29 30) () 0 () () () 0 0)
+31 'fouds2' 'traveltime' 'fouds2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 32 0 (
+33 34) () 0 () () () 0 0)
+35 'gdx' 'globalp' 'gdx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+36 'gdz' 'globalp' 'gdz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+37 'globalp' 'globalp' 'globalp' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+38 'gorx' 'globalp' 'gorx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+39 'gorz' 'globalp' 'gorz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+40 'gox' 'globalp' 'gox' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+41 'goxd' 'globalp' 'goxd' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+42 'goxr' 'globalp' 'goxr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+43 'goz' 'globalp' 'goz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+44 'gozd' 'globalp' 'gozd' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+45 'gozr' 'globalp' 'gozr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+46 'i10' 'globalp' 'i10' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '4') () 0 () () () 0 0)
+47 'nnx' 'globalp' 'nnx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+48 'nnxr' 'globalp' 'nnxr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+49 'nnz' 'globalp' 'nnz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+50 'nnzr' 'globalp' 'nnzr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+51 'nrnx' 'globalp' 'nrnx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+52 'nrnz' 'globalp' 'nrnz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+53 'nsts' 'globalp' 'nsts' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+54 'nstsr' 'globalp' 'nstsr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+55 'ntr' 'traveltime' 'ntr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+56 'nvx' 'globalp' 'nvx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+57 'nvz' 'globalp' 'nvz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+58 'pi' 'globalp' 'pi' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () (CONSTANT (REAL 4 0 0 REAL ())
+0 '0.3243f6c@1') () 0 () () () 0 0)
+59 'rbint' 'globalp' 'rbint' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+60 'selected_real_kind' '(intrinsic)' 'selected_real_kind' 1 ((
+PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN FUNCTION) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 60 () () () 0 0)
+61 'sgdl' 'globalp' 'sgdl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+62 'snb' 'globalp' 'snb' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+63 'srs' 'globalp' 'srs' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+64 'travel' 'traveltime' 'travel' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 65 0 (
+66 67 68) () 0 () () () 0 0)
+69 'traveltime' 'traveltime' 'traveltime' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+70 'ttn' 'globalp' 'ttn' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 4 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+71 'ttnr' 'globalp' 'ttnr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 4 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+72 'updtree' 'traveltime' 'updtree' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 73 0 (
+74 75) () 0 () () () 0 0)
+76 'veln' 'globalp' 'veln' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 4 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+77 'velnb' 'globalp' 'velnb' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 4 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+78 'velv' 'globalp' 'velv' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 4 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+79 'vnb' 'globalp' 'vnb' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+80 'vnl' 'globalp' 'vnl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+81 'vnr' 'globalp' 'vnr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+82 'vnt' 'globalp' 'vnt' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+66 'scx' '' 'scx' 65 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+67 'scz' '' 'scz' 65 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+68 'urg' '' 'urg' 65 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+29 'iz' '' 'iz' 28 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+30 'ix' '' 'ix' 28 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+33 'iz' '' 'iz' 32 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+34 'ix' '' 'ix' 32 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+4 'iz' '' 'iz' 3 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+5 'ix' '' 'ix' 3 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+74 'iz' '' 'iz' 73 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+75 'ix' '' 'ix' 73 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+)
+
+('addtree' 0 2 'asgr' 0 6 'backpointer' 0 7 'btg' 0 10 'checkstat' 0 11
+'dnx' 0 12 'dnxd' 0 13 'dnxr' 0 14 'dnz' 0 15 'dnzd' 0 16 'dnzr' 0 17
+'downtree' 0 18 'drnx' 0 19 'drnz' 0 20 'dvx' 0 21 'dvxd' 0 22 'dvz' 0
+23 'dvzd' 0 24 'earth' 0 25 'fom' 0 26 'fouds1' 0 27 'fouds2' 0 31 'gdx'
+0 35 'gdz' 0 36 'globalp' 0 37 'gorx' 0 38 'gorz' 0 39 'gox' 0 40 'goxd'
+0 41 'goxr' 0 42 'goz' 0 43 'gozd' 0 44 'gozr' 0 45 'i10' 0 46 'nnx' 0
+47 'nnxr' 0 48 'nnz' 0 49 'nnzr' 0 50 'nrnx' 0 51 'nrnz' 0 52 'nsts' 0
+53 'nstsr' 0 54 'ntr' 0 55 'nvx' 0 56 'nvz' 0 57 'pi' 0 58 'rbint' 0 59
+'selected_real_kind' 0 60 'sgdl' 0 61 'snb' 0 62 'srs' 0 63 'travel' 0
+64 'traveltime' 0 69 'ttn' 0 70 'ttnr' 0 71 'updtree' 0 72 'veln' 0 76
+'velnb' 0 77 'velv' 0 78 'vnb' 0 79 'vnl' 0 80 'vnr' 0 81 'vnt' 0 82)

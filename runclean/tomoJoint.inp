@@ -1,0 +1,93 @@
+* RELOC.INP
+*--- input file selection
+* cross correlation diff times:
+
+*
+*catalog P diff times:
+../dt.ct
+*
+* event file:
+../eventa.dat
+*
+* station file:
+../stanew.dat
+*
+*--- output file selection
+* original locations:
+net.loc
+* relocations:
+net.reloc
+* station information:
+net.sta
+* residual information:
+net.res
+* source paramater information:
+
+*Output velocity 
+paso.vel
+* Vp model
+Vp_model.dat
+* Vs model
+Vs_model.dat
+* catalog absolute times
+../absolute.dat
+*
+*--- data type selection: 
+* IDAT:  0 = synthetics; 1= cross corr; 2= catalog; 3= cross & cat 
+* IPHA: 1= P; 2= S; 3= P&S
+* DIST:max dist [km] between cluster centroid and station 
+* IDAT   IPHA   DIST
+   2      3    1700
+*
+*--- event clustering:
+* OBSCC:    min # of obs/pair for crosstime data (0= no clustering)
+* OBSCT:    min # of obs/pair for network data (0= no clustering)
+* OBSCC  OBSCT  CC_format 
+    0      0      -4.0 
+*
+*--- solution control:
+* ISTART:  	1 = from single source; 2 = from network sources
+* ISOLV:	1 = SVD, 2=lsqr
+* NSET:      	number of sets of iteration with specifications following
+* Raytracing
+*  ISTART  ISOLV  NSET Raytracing 
+    0       2     12    2       
+* iuses iuseq invdel  stepl lat0 lat1 lon0 lon1 dep0 dep1
+    2     0     0      0.5 32 40.8 96 107.8 -5.0 29.0 
+* wlat   wlon  rota
+  36   102   0  1000 1200 -50 100 2  
+* weight1 weight2  weight3  CC_format
+*    16.0     14.0    12.0    1
+*    25.0     23.0    20.0    1
+*    18.0     17.0    16.0    1
+    800.0     800.0   500.0    1
+*
+*--- data weighting and re-weighting: 
+* NITER: 		last iteration to used the following weights
+* WTCCP, WTCCS:		weight cross P, S 
+* WTCTP, WTCTS:		weight catalog P, S 
+* WRCC, WRCT:		residual threshold in sec for cross, catalog data 
+* WDCC, WDCT:  		max dist [km] between cross, catalog linked pairs
+* WTCD:   relative weighting between absolute and differential data
+* DAMP:    		damping (for lsqr only) 
+*       ---  CROSS DATA ----- ----CATALOG DATA ----
+* NITER WTCCP WTCCS WRCC WDCC WTCTP WTCTS WRCT WDCT WTCD DAMP JOINT THRES
+   1    0.1   0.1    -9   -9    0.1   0.08    5  -9  10   0.7  1  0.0
+   1    0.1   0.1     9   -9    0.1   0.08    5  -9  10   0.7  1  0.0
+   1    0.1   0.1     9   -9    0.1   0.08    5  -9  10   0.7  1  0.0
+   1    0.1   0.1     9   -9    0.1   0.08    5  -9  10   0.7  1  0.0
+   1    0.1   0.1     9   -9    0.1   0.08    5  -9  10   0.7  1  0.0
+   1    0.1   0.1     9   -9    0.1   0.08    5  -9  10   0.7  1  0.0
+   1    0.1   0.1     7   -9    0.8   0.8     3  -9  1.0  0.5  1  0.0
+   1    0.1   0.1     7   -9    0.8   0.8     3  -9  1.0  0.5  1  0.0
+   1    0.1   0.1     7   -9    0.8   0.8     3  -9  1.0  0.5  1  0.0
+   1    0.1   0.1     7   -9    1.0   0.8     3  -9  1.0  0.5  1  0.0
+   1    0.1   0.1     7   -9    1.0   0.8     3  -9  1.0  0.5  1  0.0
+   1    0.1   0.1     7   -9    1.0   0.8     3  -9  1.0  0.5  1  0.0
+*
+*--- event selection:
+* CID: 	cluster to be relocated (0 = all)
+* ID:	cuspids of event to be relocated (8 per line)
+* CID    
+    0      
+* ID
